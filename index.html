@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Ivan | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>#42445A
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #10b981 0%, #065f46 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        
+        .card {
+            background: white;
+            max-width: 600px;
+            width: 100%;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+            animation: slideUp 0.8s ease;
+        }
+        
+        @keyframes slideUp {
+            from {
+                transform: translateY(50px);
+                opacity: 0;
+            }
+            
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #10b981, #059669);
+            padding: 40px 30px;
+            color: white;
+            text-align: center;
+        }
+        
+        .header img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 4px solid white;
+            object-fit: cover;
+            margin-bottom: 15px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+        
+        .header h1 {
+            font-size: 26px;
+            font-weight: 700;
+        }
+        
+        .header p {
+            font-size: 14px;
+            opacity: 0.9;
+            margin-top: 5px;
+            letter-spacing: 1px;
+        }
+        
+        .content {
+            padding: 30px;
+        }
+        
+        .content h2 {
+            color: #059669;
+            font-size: 18px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin: 25px 0 10px 0;
+            border-left: 4px solid #10b981;
+            padding-left: 10px;
+        }
+        
+        .content h2:first-child {
+            margin-top: 0;
+        }
+        
+        .content p {
+            color: #555;
+            font-size: 15px;
+            line-height: 1.7;
+        }
+        
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-top: 10px;
+        }
+        
+        .skill {
+            background: #d1fae5;
+            color: #065f46;
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 13px;
+            font-weight: 600;
+        }
+        
+        .project-box {
+            background: #f0fdf4;
+            border: 1px solid #bbf7d0;
+            border-radius: 12px;
+            padding: 15px;
+            margin-top: 10px;
+            transition: 0.3s;
+        }
+        
+        .project-box:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(16, 185, 129, 0.2);
+        }
+        
+        .contact {
+            background: #064e3b;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 12px;
+        }
+        
+        .contact a {
+            color: #6ee7b7;
+            text-decoration: none;
+            font-weight: 600;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <div class="header">
+            <img src="profile.jpeg" alt="My Profile Picture">
+            <h1>Hello, I'm Ivann Reeza J. Sasapan!</h1>
+            <p>INFORMATION TECHNOLOGY STUDENT</p>
+        </div>
+        <div class="content">
+            <h2>About Me</h2>
+            <p>I am an Information Technology student. I love programming and web development. I enjoy learning new technologies and creating simple websites.</p>
+            
+            <h2>My Skills</h2>
+            <div class="skills">
+                <span class="skill">HTML</span>
+                <span class="skill">CSS</span>
+                <span class="skill">JavaScript</span>
+                <span class="skill">C++</span>
+            </div>
+            
+            <h2>My Projects</h2>
+            <div class="project-box">
+                <strong>🚀 Personal Portfolio Website</strong>
+                <p style="font-size:13px; margin-top:5px;">My first responsive portfolio made with HTML & CSS.</p>
+            </div>
+            <h2>My Personal Information</h2>
+            <div class="project-box">
+                <p style="font-size:13px; margin-top:5px;">Ivann Reeza J. Sasapan</p>
+                <p style="font-size:13px; margin-top:5px;">Bus-Bus Jolo,Sulu</p>
+                <p style="font-size:13px; margin-top:5px;">Male</p>
+            </div>
+            
+            
+            <div class="contact">
+                <p style="color:white;">📩 Contact Me</p>
+                <a href="mailto:IvannReez@gmail.com">IvannReez@gmail.com</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
